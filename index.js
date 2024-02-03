@@ -5,7 +5,6 @@ const cloodymta = require('gamedig');
 const cloodyconfig = require('./config.json');
 //------------------------------------------------------------------------------------------------//
 const cloodybot = new Client({ intents: [Intents.FLAGS.GUILDS] });
-const targetUserId = '882320290485510155';
 const rest = new REST({ version: '9' }).setToken(cloodyconfig.token);
 //------------------------------------------------------------------------------------------------//
 const commands = [
@@ -28,7 +27,7 @@ const commands = [
 ];
 //------------------------------------------------------------------------------------------------//
 
-
+const targetUserId = '882320290485510155'; //your id discord here !!
 
 //------------------------------------------------------------------------------------------------//
 
